@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<concesionario>
+  <automovil>
+      <marca>Seat</marca>
+      <model>Leon</model>
+      <color>Verd</color>
+      <motor>Diesel</motor>
+  </automovil>
+  <automovil>
+      <marca>Seat</marca>
+      <model>Altea</model>
+      <color>Vermell</color>
+      <motor>Gasolina</motor>
+  </automovil>
+  <automovil>
+      <marca>Dacia</marca>
+      <model>Duster</model>
+      <color>Blanc</color>
+      <motor>Diesel</motor>
+  </automovil>
+  <automovil>
+      <marca>Dacia</marca>
+      <model>Sandero</model>
+      <color>Negre</color>
+      <motor>Gasolina</motor>
+  </automovil>
+  <automovil>
+      <marca>Opel</marca>
+      <model>Astra</model>
+      <color>Gris perla</color>
+      <motor>Gasolina</motor>
+  </automovil>
+  <automovil>
+      <marca>Citroen</marca>
+      <model>C4 Cactus</model>
+      <color>Verd</color>
+      <motor>Gasolina</motor>
+  </automovil>
+  <automovil>
+      <marca>Citroen</marca>
+      <model>C2 Furius</model>
+      <color>Blau</color>
+      <motor>Gasolina</motor>
+  </automovil>
+  <automovil>
+      <marca>Ford</marca>
+      <model>Fusion</model>
+      <color>Vermell</color>
+      <motor>Diesel</motor>
+  </automovil>
+  <automovil>
+      <marca>Citroen</marca>
+      <model>C3</model>
+      <color>Gris metalitzat</color>
+      <motor>Gasolina</motor>
+  </automovil>
+    <automovil>
+      <marca>Citroen</marca>
+      <model>C3</model>
+      <color>Vermell</color>
+      <motor>Gasolina</motor>
+  </automovil>
+    <automovil>
+      <marca>Toyota</marca>
+      <model>Prius</model>
+      <color>Vermell</color>
+      <motor>Hibrid</motor>
+  </automovil>
+</concesionario>

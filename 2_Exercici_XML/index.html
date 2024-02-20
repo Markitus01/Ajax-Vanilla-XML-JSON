@@ -1,0 +1,34 @@
+<!DOCTYPE html> 
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Exercici AJAX : XML</title>   
+	<script src="script_ex2_msv.js"></script>
+</head>
+<body>
+    <h1>AJAX amb resposta en format XML</h1>
+    <p>Una vegada la petició Ajax té status 200 i readyState 4 ja es pot tractar la resposta, amb algun dels mètodes:
+	<ul>
+		<li>responseText</li>
+		<li>responseXML</li>
+	</ul>	
+	Sabent això fer els exercicis següents:
+	</p>
+	<h2>cotxes.xml</h2>
+	<p>
+	Al carregar la web poblar el select amb id llista amb totes les marques que hi ha dins l'arxiu (sense repeticions). I quan l'usuari seleccioni una marca es mostrin les dades de tots els cotxes d'aquesta. Mostrar primer una etiqueta h2 amb la marca i després una etiqueta dl on cada dt serà el model i cada dd serà el color i el motor. <a href='https://developer.mozilla.org/es/docs/Web/HTML/Element/dl'>Ajuda sobre etiqueta dl</a><br>
+	<img src='./prototype.png'><br>
+	Es pot utilitzar aquest prototip "contains".
+	</p>
+	<p id='resultatsEx1'>
+    <select id='llista'></select>
+	</p>
+	<h2>cd_catalog.xml</h2>
+	<p>
+	Al carregar la pàgina web generar una llista (ol) amb els noms dels atistes (ARTIST) ordenats alfabèticament i sense repeticions. Al fer doble click sobre un artista mostrarà totes les dades d'aquell artista en una taula.
+	</p>
+	<p id='resultatsEx2'>
+    
+	</p>
+</body>
+</html>

@@ -1,0 +1,74 @@
+<html>
+<head>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <title>PEOPLE</title>
+	<style>
+		body
+		{
+			font-family:helvetica;
+		}
+		code
+		{
+			font-size:large;
+			color:green;
+			background-color:lightgrey;
+		}
+		li > code
+		{
+			color:red;
+		}
+		td{
+			vertical-align: top;
+		}
+		.dreta
+		{
+			text-align:right;
+		}
+
+	</style>
+<head>
+<body>
+	<p>Dins el servidor existeix l’arxiu <code>people.json</code> i <code>fields.json</code>. 
+	<ul>
+		<li>
+		Al carregar la pàgina mostrar dins l'etiqueta amb <code>id fields</code> un conjunt de radio buttons amb els valors de l’array que hi ha en l’arxiu <code>fields.json</code>. 
+		</li>
+		<li>
+		Quan l’usuari marqui un <code>radio button</code> s’ha de mostrar una taula dins l'etiqueta amb <code>id dades</code> amb dues columnes:
+			<ol>
+				<li>un checkbox per cada fila.</li>
+				<li>valors sense repeticions que existeixen dins l’arxiu <code>people.json</code> del camp seleccionat, ordenats alfabeticament.</li>
+			</ol>
+			L’usuari pot seleccionar tants <code>checkbox</code> com desitgi.
+		</li>
+		<li>
+		Al premer el botó es visualitzaran totes les dades de les persones que compleixin amb el/s valor/s seleccionats dins l'etiqueta amb <code>id persones</code>.
+		Es pot escollir entre 2 comportaments pel botó:
+			<ol>
+				<li>Desactivat/Ocult per defecte i només s'activa/visualitza quan hi hagi un <code>checkbox</code> seleccionat.</li>
+				<li>Avisar a l'usuari si prem el botó i no hi ha cap <code>checkbox</code> seleccionat.</li>
+			</ol>
+		</li>
+	</ul>
+	</p>
+	<hr>
+    <form id='people'>
+        <fieldset>
+            <legend>AJAX - xhr - .json</legend>
+					
+					<table>
+						<tr><th>Fields</th><th>Values</th><th><input type='button' id='boto' value='SHOW PEOPLE'></th></tr>
+						<tr>
+								<td id='fields'></td>
+								<td></td>
+								<td id='dades'></td>
+								<td id='persones'></td>
+						</tr>
+					</table>
+					
+        </fieldset>
+    </form>
+    <p id='avisos'></p>
+	<img src='./exemples.png'>
+</body>
+</html>
